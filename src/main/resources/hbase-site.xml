@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+<property>
+    <name>hbase.rootdir</name>
+    <value>hdfs://172.18.20.30:9000/opt/hbase-2.0.1</value>
+</property>
+<property>
+    <name>hbase.cluster.distributed</name>
+    <value>true</value>
+</property>
+<property>
+    <name>hbase.zookeeper.quorum</name>
+    <value>172.18.20.30</value>
+</property>
+<property>
+    <name>hbase.temp.dir</name>
+    <value>/opt/hbase-2.0.1/data/hbase/temp</value>
+</property>
+<property>
+    <name>hbase.zookeeper.property.dataDir</name>
+    <value>/opt/zookeeper-3.4.10/zookeeper/</value>
+</property>
+<property>
+    <name>hbase.master.info.port</name>
+    <value>16010</value>
+</property>
+</configuration>
